@@ -1,0 +1,42 @@
+[
+  {
+    "id": "q1",
+    "question": "What is a primary key in a relational database?",
+    "expected_answer": "A primary key is a column or set of columns that uniquely identifies each row in a database table. It must contain unique values and cannot contain NULL values.",
+    "expected_terms": ["unique", "identifies", "row", "table", "null"],
+    "source_document": "database_fundamentals",
+    "relevant_passage": "A primary key is a column or combination of columns that uniquely identifies each record in a table. Primary key values must be unique and cannot be NULL."
+  },
+  {
+    "id": "q2",
+    "question": "What is the difference between TCP and UDP?",
+    "expected_answer": "TCP is a connection-oriented protocol that provides reliable, ordered data delivery with error checking. UDP is connectionless, faster but does not guarantee delivery or order.",
+    "expected_terms": ["connection", "reliable", "ordered", "connectionless", "faster"],
+    "source_document": "networking_basics",
+    "relevant_passage": "TCP provides reliable, connection-oriented communication with error checking and flow control. UDP is a simpler, connectionless protocol that offers faster data transmission without delivery guarantees."
+  },
+  {
+    "id": "q3",
+    "question": "Explain the concept of normalization in databases.",
+    "expected_answer": "Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. It involves dividing tables into smaller tables and defining relationships between them.",
+    "expected_terms": ["redundancy", "integrity", "tables", "organize", "relationships"],
+    "source_document": "database_fundamentals",
+    "relevant_passage": "Database normalization is a systematic approach to decomposing tables to eliminate data redundancy and undesirable characteristics like insertion, update, and deletion anomalies."
+  },
+  {
+    "id": "q4",
+    "question": "What is the OSI model?",
+    "expected_answer": "The OSI model is a conceptual framework with seven layers that standardizes the functions of a communication system. The layers from bottom to top are: Physical, Data Link, Network, Transport, Session, Presentation, and Application.",
+    "expected_terms": ["seven", "layers", "framework", "physical", "application"],
+    "source_document": "networking_basics",
+    "relevant_passage": "The Open Systems Interconnection (OSI) model is a conceptual model consisting of seven layers that describes how data is transmitted over a network."
+  },
+  {
+    "id": "q5",
+    "question": "What is an index in a database and why is it used?",
+    "expected_answer": "A database index is a data structure that improves the speed of data retrieval operations on a database table. It works similarly to a book index, allowing the database engine to find data without scanning the entire table.",
+    "expected_terms": ["speed", "retrieval", "data structure", "table", "performance"],
+    "source_document": "database_fundamentals",
+    "relevant_passage": "An index is a data structure that provides a fast lookup mechanism. By creating indexes on frequently queried columns, the database can retrieve rows much faster than scanning every row."
+  }
+]
