@@ -118,6 +118,15 @@ def create_app() -> FastAPI:
 
     app.include_router(router)
 
+    @app.get("/")
+    async def root():
+        return {
+            "status": "ok",
+            "service": "IntelliNotes API",
+            "health": "/health",
+            "docs": "/docs",
+        }
+
     return app
 
 
